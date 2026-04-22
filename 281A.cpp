@@ -6,10 +6,11 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int n, m;
-    cin >> n >> m;
+    string s;
+    cin >> s;
 
-    cout << (n * m) / 2 << "\n";
+    s.front() = toupper(s.front());
+    cout << s << "\n";
 
     return 0;
 }
