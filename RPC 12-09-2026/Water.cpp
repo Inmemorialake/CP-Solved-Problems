@@ -103,8 +103,9 @@ int main() {
   }
 
   if (less && greater) {
-    FOR(i, 1, n + 1) { cout << i << " "; }
-    cout << '\n';
+    cout << 1;
+    FOR(i, 2, n + 1) { cout << " " << i; }
+    cout << "\n";
     return 0;
   }
 
@@ -115,6 +116,8 @@ int main() {
   if (!less) {
     cout << a << "\n";
   } else if (!greater) {
-    cout << b << '\n';
+    cout << b << "\n";
   }
+
+  return 0;
 }

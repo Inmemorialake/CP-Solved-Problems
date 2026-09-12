@@ -1,0 +1,1 @@
+{"name":"Local: Lines","url":"/home/Inmemorialake/CP Solved Problems/RPC 12-09-2026/Lines.cpp","tests":[{"id":1789246619726,"input":"10 100\n30\n300\n1000\n20\n35\n19\n84\n117\n212\n98","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/Inmemorialake/CP Solved Problems/RPC 12-09-2026/Lines.cpp","group":"local","local":true}
